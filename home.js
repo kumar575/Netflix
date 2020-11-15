@@ -53,7 +53,12 @@ let students =  `[
       "name": "KUMAR",
       "age": 28,
       "height" : 180
-  }
+  },
+  {
+    "name": "Kumar",
+    "age": 34,
+    "height" : 176
+}
 
 ]`
 
