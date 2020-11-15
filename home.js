@@ -40,8 +40,21 @@ for(let num =0 ; num < 10; num++) {
 }
 console.log(emptyArray);
 
-let student = {first: "Kumar", last: "Krittika", age: "34",
-  studentInfo: function () { return this.first + "\n " + this.last + '\n' + this.age; 
-}
-};
-console.log(student.studentInfo());
+let student = {first: "Kumar", last: "Krittika"};
+console.log(student.first);
+
+let students =  `[
+  {
+      "name": "kumar",
+      "age": 34,
+      "height": 176
+  },
+  {
+      "name": "krittika",
+      "age": 28,
+      "height" : 180
+  }
+
+]`
+
+console.log(JSON.parse(students)[1].age);
