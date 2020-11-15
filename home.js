@@ -50,10 +50,22 @@ let students =  `[
       "height": 176
   },
   {
+<<<<<<< HEAD
       "name": "krittika",
       "age": 28,
       "height" : 180
   }
+=======
+      "name": "KUMAR",
+      "age": 28,
+      "height" : 180
+  },
+  {
+    "name": "Kumar",
+    "age": 34,
+    "height" : 176
+}
+>>>>>>> TestBranch
 
 ]`
 
