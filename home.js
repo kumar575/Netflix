@@ -50,7 +50,7 @@ let students =  `[
       "height": 176
   },
   {
-      "name": "krittika",
+      "name": "KUMAR",
       "age": 28,
       "height" : 180
   }
