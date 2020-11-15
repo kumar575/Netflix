@@ -40,5 +40,8 @@ for(let num =0 ; num < 10; num++) {
 }
 console.log(emptyArray);
 
-let student = {first: "Kumar", last: "Krittika"};
-console.log(student.first);
+let student = {first: "Kumar", last: "Krittika", age: "34",
+  studentInfo: function () { return this.first + "\n " + this.last + '\n' + this.age; 
+}
+};
+console.log(student.studentInfo());
